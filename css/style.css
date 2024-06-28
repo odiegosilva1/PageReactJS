@@ -18,10 +18,69 @@ body {
 }
 
 header {
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 5rem;
 }
 
 header #main-nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+header #main-nav .nav-brand {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3b3a3a;
+}
+
+header #main-nav .nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+header #main-nav .nav-list .nav-item a {
+  text-decoration: none;
+  color: #3b3a3a;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+header #main-nav .nav-list .nav-item a:hover {
+  color: #5a5858da;
+  transition: color 0.3s;
+}
+
+/*banner sec*/
+main {
+  margin-top: 8rem;
+}
+
+main #banner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+main #banner .banner-content .banner-content-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  margin-bottom: 2rem;
+}
+
+main #banner .banner-content .banner-content-subtitle {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  max-width: 500px;
 }
